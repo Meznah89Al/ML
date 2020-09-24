@@ -113,8 +113,6 @@ def initialization():
     '''
 
     model = None  # Holds an object form the models module
-
-    # Get all arguments passed via the command line into (args) object
     args = get_args()
 
     # initialize based on the puf type
