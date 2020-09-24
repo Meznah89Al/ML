@@ -47,7 +47,7 @@ def model_training(args, model):
         STEP1: Generate CRPs
         """
         print('[1] Extract CRPs ...')
-        df = pd.read_csv('3Double64bit_1.txt', sep=";", header=None, names=["C", "r"],low_memory=False)
+        df = pd.read_csv('3Double64bit_1M.txt', sep=";", header=None, names=["C", "r"],low_memory=False)
 
         C = df['C']
         r = df['r']
